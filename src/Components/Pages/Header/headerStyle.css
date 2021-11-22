@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+/* 
+header {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    height: 64px;
+  }
+  
+  header > div {
+    flex: 1;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  /* }
+  
+  header > div > .logo {
+    flex: 1;
+  }
+  
+  header > div > .logo > span {
+    font-size: 24px;
+    color: aliceblue;
+  }
+  
+  header > div > .logo > span::after {
+    content: '';
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    top: 34px;
+  }
+  
+  header ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+   */
+  li {
+    list-style-type: none;
+    margin-right: 15px;
+  }
+  li a {
+    text-decoration: none;
+    color: #fff;
+  } 
