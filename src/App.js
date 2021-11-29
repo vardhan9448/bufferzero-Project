@@ -12,7 +12,7 @@ import CartProvider from './Components/Pages/Context/cartContext';
 import SelectedItems from './Components/Pages/Cart/SelectedItems';
 
 export default function app() {
-  const token = sessionStorage.getItem('token');
+  const token = sessionStorage.getItem('token');            
   const [isLogin, setIsLogin] = useState(!!token);
    
   return (
